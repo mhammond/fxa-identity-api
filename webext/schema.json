@@ -1,0 +1,34 @@
+[
+  {
+    "namespace": "fxa",
+    "functions": [
+      {
+        "name": "openAccountPrefs",
+        "type": "function",
+        "description": "Opens about:preferences#sync",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "getProfileUserInfo",
+        "type": "function",
+        "description": "getProfileUserInfo",
+        "async": true,
+        "parameters": []
+      }
+    ],
+    "events": [
+      {
+        "name": "onSignInChanged",
+        "type": "function",
+        "description": "Fired when the account state changes",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "signedIn"
+          }
+        ]
+      }
+    ]
+  }
+]
